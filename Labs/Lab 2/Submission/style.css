@@ -39,7 +39,7 @@ p{
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
 div p{
-    font-size: 25;
+    font-size: 25px;
 }
 
 /*BONUS CHALLENGES*/

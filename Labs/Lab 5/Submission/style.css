@@ -1,3 +1,27 @@
 .title {
     font-size: 3rem;
 }
+
+#colorB{
+    color: blue;
+}
+
+#backgroundC{
+    background-color: #FFFDD0;
+}
+
+body{
+    background-color: gray;
+}
+
+#bossy{
+    font-weight: normal;
+    font-size: 18px;
+    color:darkslategray;
+}
+
+#upperCase{
+    text-transform: uppercase;
+}
+
+

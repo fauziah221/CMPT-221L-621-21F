@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Lab</title>
+</head>
+
+<body>
+    <p>Form</p>
+    <h2>Login</h2>
+    <form action="/favoriteTeam" method="post">
+        <input type="club" name="favoriteTeam[club]" id="">
+        <input type="nickname" name="favoriteTeam[nickname]" id="">
+        <input type="submit" value="Click me!">
+    </form>
+
+    <h2>Name</h2>
+
+    <form action="/name" method="GET">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Fauziah">
+        <br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Ibrahim">
+    <br><br>
+        <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
